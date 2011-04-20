@@ -1,0 +1,22 @@
+body { font-family: "Segoe UI", Frutiger,Tahoma,Helvetica,"Helvetica Neue", Arial, sans-serif; font-size:62.5%; margin:50px; }
+#featured { margin-bottom:2em; }
+h2 { font-size:1.5em; font-weight:bold; margin:.3em 0 .1em; }
+p { font-size:1.3em; }
+
+
+
+/* tabs structure */
+.tabs-nav { height:2em; margin:0; padding:0;  bottom:-1px; list-style:none; position:relative; }
+.tabs-nav li { float:left; margin:0; padding:0; }
+.tabs-nav li a { float:left; padding:.3em 1.4em .4em; cursor:pointer; text-decoration:none; font-size:1.4em; border:1px solid #aaa; border-bottom:0; background:#ddd url(../images/bg-tab.png) 50% 50% repeat-x; margin-right:-1px; color:#222; }
+.tabs-nav li a:hover { background:#eee url(../images/bg-tab-hover.png) 50% 50% repeat-x; color:#000; }
+.tabs-nav li.tabs-selected {  }
+.tabs-nav li.tabs-selected a { position:relative; background:#fff; padding-top:.5em; margin-top:-.2em; border-bottom:1px solid #fff; -moz-border-radius-topright:5px; -webkit-border-top-right-radius:5px; border-top-right-radius:5px; -moz-border-radius-topleft:5px; -webkit-border-top-left-radius:5px; border-top-left-radius:5px; }
+.tabs-body { clear:both; overflow:auto; border:1px solid #aaa; width:300px; background:#ddd url(../images/bg-tab-body.png) 50% bottom repeat-x; -moz-border-radius-topright:5px; -webkit-border-top-right-radius:5px; border-top-right-radius:5px; -moz-border-radius-bottomright:5px; -webkit-border-bottom-right-radius:5px; border-bottom-right-radius:5px; -moz-border-radius-bottomleft:5px; -webkit-border-bottom-left-radius:5px; border-bottom-left-radius:5px; }
+.tabs-body div.tabs-panel { padding:15px; overflow:auto; display:none; font-size:1.4em; }
+.tabs-body div.tabs-panel-selected { display:block; }
+.tabs-body div.tabs-panel h2 { font-size:1em; margin-bottom:8px; }
+.tabs-body div.tabs-panel ul,dl { margin:0; padding:0; list-style:none; }
+.tabs-body div.tabs-panel ul li { margin-bottom:3px; }
+.tabs-body div.tabs-panel dl dt { color:#777; display:block; float:left; text-align:right; width:80px; margin:2px 15px 3px 0; text-transform:uppercase; font-size:80%; font-weight:bold; }
+.tabs-body div.tabs-panel dl dd { margin:0 0 2px; display:block; border-top:1px solid #ddd; }

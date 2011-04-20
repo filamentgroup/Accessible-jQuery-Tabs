@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tabs example with updating hash | Designing with Progressive Enhancement</title>
+		<link href="css/tabs.css" rel="stylesheet" type="text/css" />
+		<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>		
+		<script src="js/jQuery.tabs.js"></script>	
+		<script src="js/example-updateHash.js"></script>	
+	</head>
+	<body>
+	
+		<p>Note: this demo updates the hash on tab changes, and also supports deep-links to that tab, 
+		but for cross-browser back button support, you'll need to include a hashchange event plugin, such as
+		<a href="http://benalman.com/projects/jquery-hashchange-plugin/">Ben Alman's HashChange</a></p>
+	
+		<div id="featured">
+			<ul id="featured-links">
+				<li><a href="#news">News</a></li>
+				<li><a href="#sports">Sports</a></li>
+				<li><a href="#weather">Weather</a></li>
+			</ul>
+			
+			<div id="featured-content">
+				<div id="news">
+					<h2>Breaking News</h2>
+					<ul>
+						<li><a href="senate.htm">Senate Approves Budget By Close Margin</a></li>
+						<li><a href="dolphin-chat.htm">Dolphin Said to Speak Esperanto</a></li>
+						<li><a href="eclipse.htm">Spectacular Solar Eclipse This Afternoon</a></li>
+						<li><a href="segway-jump.htm">Stunt Man Jumps Grand Canyon in Segway</a></li>
+						<li><a href="election.htm">Mid Term Election Down to the Wire</a></li>
+					</ul>
+				</div>
+				<div id="sports">
+					<h2>Top Sports Stories</h2>
+					<ul>
+						<li><a href="gosox.htm">Red Sox Close to Another Record Year</a></li>
+						<li><a href="unicycling.htm">Is Extreme Unicycling The Next Craze?</a></li>
+						<li><a href="patriots.htm">Patriots Looking to Make Key Trade</a></li>
+						<li><a href="cup-boy.htm">Cup Stacking Champ To Star in Movie</a></li>
+						<li><a href="celtics.htm">Boston Celtics Win 11th Game in a Row</a></li>
+					</ul>
+				</div>
+				<div id="weather">
+					<h2>5 Day Forecast</h2>
+					<dl>
+						<dt>Wednesday</dt>
+						<dd>Heavy Rain - 36&#176;F | 19&#176;F</dd>
+						<dt>Thursday</dt>
+						<dd>Mostly Coudy - 42&#176;F | 26&#176;F</dd>
+						<dt>Friday</dt>
+						<dd>Sunny - 47&#176;F | 36&#176;F</dd>
+						<dt>Saturday</dt>
+						<dd>Windy & Gray - 44&#176;F | 30&#176;F</dd>
+						<dt>Sunday</dt>
+						<dd>Heavy Snow - 38&#176;F | 28&#176;F</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
