@@ -78,7 +78,7 @@ jQuery.fn.tabs = function(settings){
 						.find("a")
 						.focus();
 				//unselect  panels
-				tabsBody.find('div.tabs-panel-selected').attr('aria-hidden',true).removeClass('tabs-panel-selected');
+				tabsBody.find('> div.tabs-panel-selected').attr('aria-hidden',true).removeClass('tabs-panel-selected');
 				//select active panel
 				$( tab.attr('href') + tabIDsuffix ).addClass('tabs-panel-selected').attr('aria-hidden',false);
 				
