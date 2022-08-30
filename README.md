@@ -1,3 +1,5 @@
+:warning: This project is archived and the repository is no longer maintained. 
+
 # Accessible Tabs Widget 
 ## _from the Book:_ [Designing with Progressive Enhancement](http://filamentgroup.com/dwpe)
 
